@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body{
+    background-color: #c8eaee;
+}
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding: 20px 30px;
+  margin: 0 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.ram
+{
+width:200px;
+
+}
+h1{
+    text-align: center;
+}
+h3{
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-bottom: 2%;
+}
+.tindog
+{
+    width: 300px;
+    margin-top: 2%;
+    margin-left: 25%;
+    border:solid;
+    border-color: cornflowerblue;
+    object-fit: cover;
+    border-radius: 6px;
+    
+   
+}
+.tindog:hover{
+  box-shadow: 10px 10px 15px 5px rgba(1,1,1,100);
+                    transform: rotate(5deg);
+                   
+                    transition: 0.3s;
+    background: crimson;}
+p{
+  color:darkgrey;
+  text-align: center;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  margin: 2% 25.5%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.about-tindog
+{
+  text-align: center;
+  float: right;
+  margin-top: 15%;
+  margin-right: 8%;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <img class="ram" src="Ram.png" alt="Ramsai">
+  <p> Html css</p>
+</div>
+
+<div class="main">
+  <h1>Projects</h1>
+  <h4 class="about-tindog">Tindog is a fun app that provides 
+    dog <br> lovers with the fastest,easiest
+     way to meet other pet <br>parents and their dog counterparts</h4>
+  <h3> Tindog website</h3>
+  
+  <div class="container">
+    <a href="https://tindogsi.netlify.app/"><img class="tindog" src="tindog.PNG" alt="tindog"> <div class="overlay">
+      <div class="text">Visit Site</div></a>
+    </div>
+  </div> 
+  
+</div>
+
+</body>
+</html> 
